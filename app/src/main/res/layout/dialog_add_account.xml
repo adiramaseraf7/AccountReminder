@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#313244">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Akun *"
+        android:textColor="#a6adc8"
+        android:textSize="13sp"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contoh: AWS Production"
+        android:textColor="#cdd6f4"
+        android:textColorHint="#6c7086"
+        android:inputType="text"
+        android:backgroundTint="#45475a"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keterangan"
+        android:textColor="#a6adc8"
+        android:textSize="13sp"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/etDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contoh: Server RAN Data"
+        android:textColor="#cdd6f4"
+        android:textColorHint="#6c7086"
+        android:inputType="text"
+        android:backgroundTint="#45475a"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Expired *"
+        android:textColor="#a6adc8"
+        android:textSize="13sp"
+        android:layout_marginTop="12dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:id="@+id/tvSelectedDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pilih tanggal..."
+            android:textColor="#cdd6f4"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/btnPickDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pilih"
+            android:backgroundTint="#89b4fa"
+            android:textColor="#1e1e2e"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingatkan berapa hari sebelum expired?"
+        android:textColor="#a6adc8"
+        android:textSize="13sp"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/etReminderDays"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="14"
+        android:textColor="#cdd6f4"
+        android:inputType="number"
+        android:backgroundTint="#45475a"/>
+
+</LinearLayout>
