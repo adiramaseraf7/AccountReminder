@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Bell body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,26 C54,26 54,26 54,26 C42,26 33,35 33,47 L33,63 L27,69 L27,72 L81,72 L81,69 L75,63 L75,47 C75,35 66,26 54,26 Z"/>
+
+    <!-- Bell bottom notch -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M47,72 C47,75.9 50.1,79 54,79 C57.9,79 61,75.9 61,72 Z"/>
+
+    <!-- Bell top stem -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M51,23 C51,21.3 52.3,20 54,20 C55.7,20 57,21.3 57,23 L57,27 L51,27 Z"/>
+
+    <!-- Exclamation dot (alert indicator) -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M72,30 C72,34.4 68.4,38 64,38 C59.6,38 56,34.4 56,30 C56,25.6 59.6,22 64,22 C68.4,22 72,25.6 72,30 Z"/>
+
+    <!-- Exclamation mark inside dot -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M63,26 L65,26 L64.5,33 L63.5,33 Z"/>
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M62.5,34.5 C62.5,33.7 63.2,33 64,33 C64.8,33 65.5,33.7 65.5,34.5 C65.5,35.3 64.8,36 64,36 C63.2,36 62.5,35.3 62.5,34.5 Z"/>
+
+</vector>
